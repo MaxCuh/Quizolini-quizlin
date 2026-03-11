@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Logg inn{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <h1>QuizApp 🎯</h1>
+    <h2>Logg inn</h2>
+    <form method="POST">
+        <input type="text" name="login_input" placeholder="Brukernavn eller epost" required>
+        <input type="password" name="password" placeholder="Passord" required>
+        <button type="submit">Logg inn</button>
+    </form>
+    <p>Har du ikke konto? <a href="{{ url_for('auth.register') }}">Registrer deg</a></p>
+</div>
+{% endblock %}
