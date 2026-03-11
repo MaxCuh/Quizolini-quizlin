@@ -1,2 +1,3 @@
 # Quizolini-quizlin
-Quiz app prosjekt
+ webbasert quizapplikasjon
+
